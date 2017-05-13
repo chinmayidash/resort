@@ -1,0 +1,112 @@
+@media screen and (max-width: 1089px) {
+	#header .navigation {
+	    float: left;
+	    margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+ 	#works .images img {
+    width: 50%;
+	}
+}
+@media screen and (max-width: 360px) {
+ 	#works .images img {
+    width: 100%;
+	}	
+}
+@media screen and (max-width: 865px) {
+	#services .service_column .title h5 {
+		font-size: 11px;
+	}
+	#services .service_column .description p {
+   		font-size: 14px;
+	}
+	#promo .promo_title h4 {
+   		font-size: 12px;
+	}
+	#promo .promo_description p {
+		font: 15px/18px 'open_sansregular', sans-sarif;
+	}
+	#promo .promo_main a {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 767px) {
+
+	#header .navigation {
+		z-index: 1;
+		margin:0;
+		position: absolute;
+		width: 100%;
+		top:100%;
+		left:0;
+		background: rgba(0,0,0,0.7);
+		padding-bottom: 30px;
+	}
+
+	#header .navigation ul li {
+		display: block;
+		text-align: center;
+		padding: 10px;
+	}
+	#contact .contact_title h2 {
+	    font-size: 40px;
+	}
+}
+@media screen and (max-width: 627px) {
+	#services .service_column {
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	#promo .promo_column {
+   		width: 100%;
+	}
+	#promo .promo_text {
+    	padding-bottom: 20px;
+	}
+
+}
+@media screen and (max-width: 500px){
+	#address .address_column {
+ 	width: 100%;
+	 }
+	#address .address_column article ,  #address .address_column .right  {
+ 	text-align: center;
+ 	padding-bottom: 10px;
+  	}
+	#address .address_column .right {
+  	border: none;
+ 	}
+ 	#promo .promo_side {
+	    width: 90%;
+	    margin-left: 10px;
+	    padding-left: 10px;
+	}
+	#promo .promo_main {
+	    width: 100%;
+	    padding: 50px 10px;
+	}
+	#promo .promo_text p {
+    	margin-left: 20px;
+	}
+}
+@media screen and (max-width: 540px) {
+	#contact .contact_float {
+	    width: 100%;
+	    padding: 22px 35px 22px 35px;
+	    text-align: center;
+	}
+	#contact .contact_title h2 {
+    	font-size: 30px;
+	}
+	#contact .contact_float img {
+   		display: none;
+	}
+}
+@media screen and (max-width: 440px) {
+	#header .logo {
+	    display: none;
+	}
+}
+
